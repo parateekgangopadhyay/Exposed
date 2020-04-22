@@ -1,0 +1,7 @@
+{
+  "name": "exposedApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
