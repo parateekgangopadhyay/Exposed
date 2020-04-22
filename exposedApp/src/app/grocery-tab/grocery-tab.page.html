@@ -1,9 +1,111 @@
 <ion-header>
   <ion-toolbar color="dark">
-    <ion-title>Grocery</ion-title>
+    <ion-title>Shops near me</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
+  <ion-grid>
+    <ion-row>
+      <ion-col class="custom-text-right">
+        <ion-icon class="custom-font-size" name="remove-circle"></ion-icon>
+      </ion-col>
+
+      <ion-col class="custom-text-center">
+        <span>0 - 250m</span>
+      </ion-col>
+
+      <ion-col class="custom-text-left">
+        <ion-icon class="custom-font-size" name="add-circle"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-card>
+    <div class="ribbon">Open</div>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="../../assets/user.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h3>Montu Shah</h3>
+        <p>
+          <ion-icon name="location-outline"></ion-icon> 250m away
+        </p>
+      </ion-label>
+    </ion-item>
+
+    <img src="../../assets/shop.jpg" alt="ion">
+    <ion-card-header>
+      <ion-card-title>Montu Shah Shop</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>Free delivery within <strong>250m</strong></p>
+      <p>Open from <strong>10AM</strong> to <strong>1PM</strong> and <strong>5PM</strong> to <strong>6:30PM</strong></p>
+    </ion-card-content>
+
+    <ion-footer>
+      <ion-grid>
+        <ion-row>
+          <ion-col class="custom-text-center call-btn">
+            <ion-icon class="action-btn" name="call"></ion-icon>
+          </ion-col>
+
+          <ion-col class="custom-text-center info-btn">
+            <ion-icon class="action-btn" name="information-circle"></ion-icon>
+          </ion-col>
+
+          <ion-col class="custom-text-center order-btn">
+            <ion-icon class="action-btn" name="cart"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-footer>
+  </ion-card>
+
+
+  <ion-card>
+    <div class="ribbon">Open</div>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="../../assets/bigbazar.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h3>Bada Bazaar</h3>
+        <p>
+          <ion-icon name="location-outline"></ion-icon> 250m away
+        </p>
+      </ion-label>
+    </ion-item>
+
+    <img src="../../assets/supermart.jpg" alt="ion">
+    <ion-card-header>
+      <ion-card-title>Bada Bazaar</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>Free delivery above <strong></strong></p>
+      <p>Opened 24*7 <strong>for home delivery only</strong></p>
+    </ion-card-content>
+
+    <ion-footer>
+      <ion-grid>
+        <ion-row>
+          <ion-col class="custom-text-center call-btn">
+            <ion-icon class="action-btn" name="call"></ion-icon>
+          </ion-col>
+
+          <ion-col class="custom-text-center info-btn">
+            <ion-icon class="action-btn" name="information-circle"></ion-icon>
+          </ion-col>
+
+          <ion-col class="custom-text-center order-btn">
+            <ion-icon class="action-btn" name="cart"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-footer>
+  </ion-card>
 </ion-content>
