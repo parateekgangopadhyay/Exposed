@@ -1,0 +1,51 @@
+.custom-font-size {
+    font-size: 16px;
+    color    : #48484a;
+}
+
+.custom-text-center {
+    text-align: center !important;
+}
+
+.custom-text-left {
+    text-align: left !important;
+}
+
+.custom-text-right {
+    text-align: right !important;
+}
+
+.action-btn {
+    font-size: 25px;
+    ;
+}
+
+.call-btn {
+    color: #34c759;
+}
+
+.info-btn {
+    color: #007aff;
+}
+
+.order-btn {
+    color: #48484a;
+}
+
+.ribbon {
+    font-size: 12px;
+    position: relative;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 999;
+    padding: 5px 30px 5px 30px;
+    font-family: 'Allerta Stencil', sans-serif;
+    text-transform: uppercase;
+    background: #111;
+    color: #efefef;
+    border: 1px solid;
+    filter: drop-shadow(0.25em 0.7em 0.95em rgba(0,0,0, 0.8));
+    border-radius: 5px;
+    color: #efefef;
+}
